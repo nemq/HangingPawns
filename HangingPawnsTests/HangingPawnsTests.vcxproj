@@ -29,7 +29,7 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
-    <Import Project="..\packages\gtest\scripts\buildsystems\msbuild\vcpkg.props" />
+    <Import Project="..\packages\vcpkg\scripts\buildsystems\msbuild\vcpkg.props" />
   </ImportGroup>
   <ImportGroup Label="Shared" />
   <ImportGroup Label="PropertySheets" />
@@ -57,7 +57,7 @@
   <ItemDefinitionGroup />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
-    <Import Project="..\packages\gtest\scripts\buildsystems\msbuild\vcpkg.targets" />
+    <Import Project="..\packages\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets" />
   </ImportGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
